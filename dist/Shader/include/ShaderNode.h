@@ -1,0 +1,35 @@
+#ifndef SHADER_NODE_H
+#define SHADER_NODE_H
+
+#include "Shader.h"
+
+class ShaderNodeLink
+{
+public:
+	ShaderNodeLink()
+	{
+		this->next = 0;
+		this->prev = 0;
+	}
+	~ShaderNodeLink()
+	{
+	}
+	ShaderNodeLink *next;
+	ShaderNodeLink *prev;
+};
+
+
+class ShaderNode : public ShaderNodeLink
+{
+public:
+	ShaderNode();
+	void SetShader(ShaderName::Name shaderName, const char * const shaderBaseFileName);
+	ShaderName::Name GetShaderName() const;
+	Shader *GetShader();
+
+private:
+	Shader *pShader;
+};
+
+
+#endif

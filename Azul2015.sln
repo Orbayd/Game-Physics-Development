@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameEngine", "src\GameEngineStudent.vcxproj", "{05E82E1E-1AC0-4A10-AAF7-B67724744267}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D0BEDC1D-3436-407E-B582-8C77ACB729D8} = {D0BEDC1D-3436-407E-B582-8C77ACB729D8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Box2D", "Box2D\Box2D.vcxproj", "{D0BEDC1D-3436-407E-B582-8C77ACB729D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E82E1E-1AC0-4A10-AAF7-B67724744267}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05E82E1E-1AC0-4A10-AAF7-B67724744267}.Debug|Win32.Build.0 = Debug|Win32
+		{05E82E1E-1AC0-4A10-AAF7-B67724744267}.Release|Win32.ActiveCfg = Release|Win32
+		{05E82E1E-1AC0-4A10-AAF7-B67724744267}.Release|Win32.Build.0 = Release|Win32
+		{D0BEDC1D-3436-407E-B582-8C77ACB729D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0BEDC1D-3436-407E-B582-8C77ACB729D8}.Debug|Win32.Build.0 = Debug|Win32
+		{D0BEDC1D-3436-407E-B582-8C77ACB729D8}.Release|Win32.ActiveCfg = Release|Win32
+		{D0BEDC1D-3436-407E-B582-8C77ACB729D8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameObject2D">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="~GameObject2D" Hidden="true" />
+      <Method Name="drawEnabled" Hidden="true" />
+      <Method Name="GameObject2D" Hidden="true" />
+      <Method Name="getGraphicsObject" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>oAAQQBABBAAAAAAAAABAAAACAQAlAAAAACAAwABAQAA=</HashCode>
+      <FileName>GameObject2D.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~GameObject" Hidden="true" />
+      <Method Name="drawEnabled" Hidden="true" />
+      <Method Name="GameObject" Hidden="true" />
+      <Method Name="getGraphicsObject" Hidden="true" />
+      <Method Name="getWorld" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAAAAAAAAAABAAAAAAAAgAAEAAAAAAAoAQAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject_Circle">
+    <Position X="6.25" Y="6.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAABAABABAAAgAAAAAAAAAAAAABAAAAgCAQIAAAAAI=</HashCode>
+      <FileName>GraphicsObject_Circle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject_Sprite">
+    <Position X="8.25" Y="6.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAABAABABAAAgAAAAgAAQAAAAAAAQAAgCAQAAAAAAI=</HashCode>
+      <FileName>GraphicsObject_Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAABAAAAAIAAAgAAAAAAAUAABAAEAgAAAA=</HashCode>
+      <FileName>GraphicsObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pModel" />
+      <Field Name="pShaderObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphicsObject_Tri">
+    <Position X="2.25" Y="6.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EIAABAABABAAAgAAAAAAAAAAgAABAAAAACAAAAAAAAI=</HashCode>
+      <FileName>GraphicsObject_Tri.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderMaterial">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphicsObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAAKAAAAAABEAAgAAAAAAAAAAEAAAAAAggAAAEAAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shader">
+    <Position X="8" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QIAAAAACAAAABAAAAAAAAAAAAABEABAAAAAAAIAAAAA=</HashCode>
+      <FileName>Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject_Quad">
+    <Position X="4.25" Y="6.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BIAABABAABAAAwAAAAgAAQAAAAAAAAAAAAAAAABAAAI=</HashCode>
+      <FileName>GraphicsObject_Quad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSortBucket">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="~GameSortBucket" Hidden="true" />
+      <Method Name="drawEnabled" Hidden="true" />
+      <Method Name="GameSortBucket" Hidden="true" />
+      <Method Name="getGraphicsObject" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAAQQBACBAAAAIAAAABAAAAAAAAlAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>GameSortBucket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

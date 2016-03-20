@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05E82E1E-1AC0-4A10-AAF7-B67724744267}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>spinnycube</RootNamespace>
+    <ProjectName>GameEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)dist\Shader\include;$(SolutionDir)dist\Math\include;$(SolutionDir)dist\SB6\include;$(SolutionDir)dist\GLFW\include;$(SolutionDir)dist\PCStree\include;$(SolutionDir)dist\File\include;$(SolutionDir)dist\Texture\include;$(SolutionDir)dist\Time\include;$(SolutionDir)dist\Engine\include;$(SolutionDir)dist\Model\include;$(SolutionDir)dist\Image\include;$(SolutionDir)dist\GraphicsObject\include;$(SolutionDir)Box2D;$(SolutionDir)src;$(SolutionDir);$(SolutionDir)dist\Audio\include</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>
+      </SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+      <ShowProgress>NotSet</ShowProgress>
+      <LinkStatus>
+      </LinkStatus>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AngryContactListener.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="BackGroundFactory.cpp" />
+    <ClCompile Include="Bird.cpp" />
+    <ClCompile Include="BirdAbility.cpp" />
+    <ClCompile Include="BirdFactory.cpp" />
+    <ClCompile Include="BlackBird.cpp" />
+    <ClCompile Include="BlackBirdSound.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="BlockDamaged.cpp" />
+    <ClCompile Include="BlockDead.cpp" />
+    <ClCompile Include="BlockFactory.cpp" />
+    <ClCompile Include="BlockHealty.cpp" />
+    <ClCompile Include="BlockHeavyDamaged.cpp" />
+    <ClCompile Include="BlueBird.cpp" />
+    <ClCompile Include="BlueBirdSound.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="BombEmitter.cpp" />
+    <ClCompile Include="BombParticle.cpp" />
+    <ClCompile Include="Boomerang.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraDirector.cpp" />
+    <ClCompile Include="CameraMan.cpp" />
+    <ClCompile Include="ChunkEmitter.cpp" />
+    <ClCompile Include="ChunkParticle.cpp" />
+    <ClCompile Include="Color.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CommonBirdSounds.cpp" />
+    <ClCompile Include="Damaged.cpp" />
+    <ClCompile Include="DamageState.cpp" />
+    <ClCompile Include="Dead.cpp" />
+    <ClCompile Include="Default.cpp" />
+    <ClCompile Include="DefaultState.cpp" />
+    <ClCompile Include="DropEgg.cpp" />
+    <ClCompile Include="Egg.cpp" />
+    <ClCompile Include="EggEmitter.cpp" />
+    <ClCompile Include="FeatherEmitter.cpp" />
+    <ClCompile Include="FeatherParticle.cpp" />
+    <ClCompile Include="Flying.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObject2D.cpp" />
+    <ClCompile Include="GameObjectMan.cpp" />
+    <ClCompile Include="GameSortBucket.cpp" />
+    <ClCompile Include="GlassBlock.cpp" />
+    <ClCompile Include="GreenBird.cpp" />
+    <ClCompile Include="GreenBirdSound.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="Healty.cpp" />
+    <ClCompile Include="HeavyDamaged.cpp" />
+    <ClCompile Include="Helmet.cpp" />
+    <ClCompile Include="HelmetPiggy.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="InputTest.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Mouse.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="InputMan.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="ParticleEmitter.cpp" />
+    <ClCompile Include="ParticleFactory.cpp" />
+    <ClCompile Include="Piggy.cpp" />
+    <ClCompile Include="PiggyDead.cpp" />
+    <ClCompile Include="PiggyFactory.cpp" />
+    <ClCompile Include="PigSounds.cpp" />
+    <ClCompile Include="Ready.cpp" />
+    <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="RedBird.cpp" />
+    <ClCompile Include="RedBirdSound.cpp" />
+    <ClCompile Include="RubberBand.cpp" />
+    <ClCompile Include="Seat.cpp" />
+    <ClCompile Include="Simulation.cpp" />
+    <ClCompile Include="Sky.cpp" />
+    <ClCompile Include="SlingShot.cpp" />
+    <ClCompile Include="SlingShotFactory.cpp" />
+    <ClCompile Include="SmokeEmitter.cpp" />
+    <ClCompile Include="SmokeExplosion.cpp" />
+    <ClCompile Include="SmokeParticle.cpp" />
+    <ClCompile Include="SmokeTrail.cpp" />
+    <ClCompile Include="SmokeTrailFactory.cpp" />
+    <ClCompile Include="SmokeTrailMan.cpp" />
+    <ClCompile Include="SoundMan.cpp" />
+    <ClCompile Include="SoundObject.cpp" />
+    <ClCompile Include="GlassBlockSound.cpp" />
+    <ClCompile Include="SpeedUp.cpp" />
+    <ClCompile Include="Split.cpp" />
+    <ClCompile Include="StoneBall.cpp" />
+    <ClCompile Include="StoneBlock.cpp" />
+    <ClCompile Include="StoneBlockSound.cpp" />
+    <ClCompile Include="ThreadMill.cpp" />
+    <ClCompile Include="TimerMan.cpp" />
+    <ClCompile Include="TrailEmitter.cpp" />
+    <ClCompile Include="TrailParticle.cpp" />
+    <ClCompile Include="Vect2D.cpp" />
+    <ClCompile Include="Wait.cpp" />
+    <ClCompile Include="Warcry.cpp" />
+    <ClCompile Include="WhiteBird.cpp" />
+    <ClCompile Include="WhiteBirdSounds.cpp" />
+    <ClCompile Include="WoodBlockSound.cpp" />
+    <ClCompile Include="WoodPlatform.cpp" />
+    <ClCompile Include="WoodPlatformFactory.cpp" />
+    <ClCompile Include="WoodBlock.cpp" />
+    <ClCompile Include="World.cpp" />
+    <ClCompile Include="YellowBird.cpp" />
+    <ClCompile Include="YellowBirdSound.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AngryContactListener.h" />
+    <ClInclude Include="AzulHelper.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="BackGroundFactory.h" />
+    <ClInclude Include="Bird.h" />
+    <ClInclude Include="BirdAbility.h" />
+    <ClInclude Include="BirdFactory.h" />
+    <ClInclude Include="BirdState.h" />
+    <ClInclude Include="BlackBird.h" />
+    <ClInclude Include="BlackBirdSound.h" />
+    <ClInclude Include="Blink.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="BlockDamaged.h" />
+    <ClInclude Include="BlockDead.h" />
+    <ClInclude Include="BlockFactory.h" />
+    <ClInclude Include="BlockHealty.h" />
+    <ClInclude Include="BlockHeavyDamaged.h" />
+    <ClInclude Include="BlockState.h" />
+    <ClInclude Include="BlueBird.h" />
+    <ClInclude Include="BlueBirdSound.h" />
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="BombEmitter.h" />
+    <ClInclude Include="BombParticle.h" />
+    <ClInclude Include="Boomerang.h" />
+    <ClInclude Include="BoomerangEvent.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraDirector.h" />
+    <ClInclude Include="CameraMan.h" />
+    <ClInclude Include="ChunkEmitter.h" />
+    <ClInclude Include="ChunkParticle.h" />
+    <ClInclude Include="Color.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="CommonBirdSounds.h" />
+    <ClInclude Include="Damaged.h" />
+    <ClInclude Include="DamageState.h" />
+    <ClInclude Include="Dead.h" />
+    <ClInclude Include="DebugOut.h" />
+    <ClInclude Include="Default.h" />
+    <ClInclude Include="DefaultState.h" />
+    <ClInclude Include="DropEgg.h" />
+    <ClInclude Include="Egg.h" />
+    <ClInclude Include="EggEmitter.h" />
+    <ClInclude Include="EnumBase.h" />
+    <ClInclude Include="EventName.h" />
+    <ClInclude Include="FeatherEmitter.h" />
+    <ClInclude Include="FeatherParticle.h" />
+    <ClInclude Include="Flying.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObject2D.h" />
+    <ClInclude Include="GameObjectMan.h" />
+    <ClInclude Include="GameObjectName.h" />
+    <ClInclude Include="GameSortBucket.h" />
+    <ClInclude Include="GlassBlock.h" />
+    <ClInclude Include="GlassBlockSound.h" />
+    <ClInclude Include="GreenBird.h" />
+    <ClInclude Include="GreenBirdSound.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="Healty.h" />
+    <ClInclude Include="HeavyDamaged.h" />
+    <ClInclude Include="Helmet.h" />
+    <ClInclude Include="HelmetPiggy.h" />
+    <ClInclude Include="ImageName.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="InputTest.h" />
+    <ClInclude Include="Jump.h" />
+    <ClInclude Include="JumpRotate.h" />
+    <ClInclude Include="JumToSling.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="Mouse.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="OinkEvent.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticleEmitter.h" />
+    <ClInclude Include="ParticleFactory.h" />
+    <ClInclude Include="Piggy.h" />
+    <ClInclude Include="PiggyDead.h" />
+    <ClInclude Include="PiggyFactory.h" />
+    <ClInclude Include="PiggyState.h" />
+    <ClInclude Include="PigSounds.h" />
+    <ClInclude Include="PixelToMeter.h" />
+    <ClInclude Include="Ready.h" />
+    <ClInclude Include="RedBird.h" />
+    <ClInclude Include="RedBirdSound.h" />
+    <ClInclude Include="RubberBand.h" />
+    <ClInclude Include="Seat.h" />
+    <ClInclude Include="ShaderName.h" />
+    <ClInclude Include="InputMan.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="Simulation.h" />
+    <ClInclude Include="Sky.h" />
+    <ClInclude Include="SlingShot.h" />
+    <ClInclude Include="SlingShotFactory.h" />
+    <ClInclude Include="SmokeEmitter.h" />
+    <ClInclude Include="SmokeExplosion.h" />
+    <ClInclude Include="SmokeParticle.h" />
+    <ClInclude Include="SmokeTrail.h" />
+    <ClInclude Include="SmokeTrailFactory.h" />
+    <ClInclude Include="SmokeTrailMan.h" />
+    <ClInclude Include="SoundMan.h" />
+    <ClInclude Include="SoundObject.h" />
+    <ClInclude Include="SpeedUp.h" />
+    <ClInclude Include="Split.h" />
+    <ClInclude Include="StoneBall.h" />
+    <ClInclude Include="StoneBlock.h" />
+    <ClInclude Include="StoneBlockSound.h" />
+    <ClInclude Include="TextureName.h" />
+    <ClInclude Include="ThreadMill.h" />
+    <ClInclude Include="TimeBombEvent.h" />
+    <ClInclude Include="TimerEvent.h" />
+    <ClInclude Include="TimerMan.h" />
+    <ClInclude Include="TrailEmitter.h" />
+    <ClInclude Include="TrailParticle.h" />
+    <ClInclude Include="Vect2D.h" />
+    <ClInclude Include="Wait.h" />
+    <ClInclude Include="Warcry.h" />
+    <ClInclude Include="WhiteBird.h" />
+    <ClInclude Include="WhiteBirdSounds.h" />
+    <ClInclude Include="WoodBlock.h" />
+    <ClInclude Include="WoodBlockSound.h" />
+    <ClInclude Include="WoodPlatfomFactory.h" />
+    <ClInclude Include="WoodPlatform.h" />
+    <ClInclude Include="World.h" />
+    <ClInclude Include="YellowBird.h" />
+    <ClInclude Include="YellowBirdSound.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\Audio\lib\irrKlang.lib" />
+    <Library Include="..\dist\Box2D\lib\Box2DDebug.lib" />
+    <Library Include="..\dist\Engine\lib\EngineDebug.lib" />
+    <Library Include="..\dist\File\lib\FileDebug.lib" />
+    <Library Include="..\dist\GLFW\lib\GLFWDebug.lib" />
+    <Library Include="..\dist\GraphicsObject\lib\GraphicsObjectDebug.lib" />
+    <Library Include="..\dist\Image\lib\ImageDebug.lib" />
+    <Library Include="..\dist\Math\lib\MathDebug.lib" />
+    <Library Include="..\dist\Model\lib\ModelDebug.lib" />
+    <Library Include="..\dist\PCSTree\lib\PCSTreeDebug.lib" />
+    <Library Include="..\dist\SB6\lib\sb6Debug.lib" />
+    <Library Include="..\dist\Shader\lib\ShaderDebug.lib" />
+    <Library Include="..\dist\Texture\lib\TextureDebug.lib" />
+    <Library Include="..\dist\Time\lib\TimeDebug.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\dist\Audio\lib\ikpMP3.dll" />
+    <None Include="..\dist\Audio\lib\irrKlang.dll" />
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

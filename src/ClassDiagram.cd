@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameObject2D">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>oAEQQBABBAAAAAAAAABAAAACAQAlAgAAACAEwABAQAA=</HashCode>
+      <FileName>GameObject2D.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAAAAAAAAAABAAAAAAAAgAAEABAAEAAoAQAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCSNode" Collapsed="true">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAQgAAAAAABAAECGAAACIAAECABAgAAkAABAQAQ=</HashCode>
+      <FileName>c:\users\cdminstructor\desktop\gam450\instructor\lectures\week_5\17.3_different levels remove add - abstract pcsnode\dist\pcstree\include\pcsnode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsObject" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAABAAAAAIAAAkAAAAAAAUAABAAEAgAAAA=</HashCode>
+      <FileName>c:\users\cdminstructor\desktop\gam450\instructor\lectures\week_5\17.3_different levels remove add - abstract pcsnode\dist\graphicsobject\include\graphicsobject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

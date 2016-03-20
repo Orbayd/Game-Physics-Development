@@ -1,0 +1,893 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMan.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectMan.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMan.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject2D.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSortBucket.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect2D.cpp">
+      <Filter>Game\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Game\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Game\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="AngryContactListener.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="InputTest.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundFactory.cpp">
+      <Filter>Factory\BackGround\Factory Class</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodPlatformFactory.cpp">
+      <Filter>Factory\BackGround\Factory Class</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageState.cpp">
+      <Filter>Factory\MyAddition</Filter>
+    </ClCompile>
+    <ClCompile Include="BirdFactory.cpp">
+      <Filter>Factory\Birds</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Factory\Birds</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockFactory.cpp">
+      <Filter>Factory\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Factory\Blocks\BlockObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassBlock.cpp">
+      <Filter>Factory\Blocks\BlockObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodBlock.cpp">
+      <Filter>Factory\Blocks\BlockObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneBlock.cpp">
+      <Filter>Factory\Blocks\BlockObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="RubberBand.cpp">
+      <Filter>Factory\SlingShot</Filter>
+    </ClCompile>
+    <ClCompile Include="SlingShotFactory.cpp">
+      <Filter>Factory\SlingShot</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Factory\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Factory\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodPlatform.cpp">
+      <Filter>Factory\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="SlingShot.cpp">
+      <Filter>Factory\SlingShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Piggy.cpp">
+      <Filter>Factory\Piggys</Filter>
+    </ClCompile>
+    <ClCompile Include="PiggyFactory.cpp">
+      <Filter>Factory\Piggys</Filter>
+    </ClCompile>
+    <ClCompile Include="Seat.cpp">
+      <Filter>Factory\SlingShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Wait.cpp">
+      <Filter>Factory\Birds\BirdState</Filter>
+    </ClCompile>
+    <ClCompile Include="Ready.cpp">
+      <Filter>Factory\Birds\BirdState</Filter>
+    </ClCompile>
+    <ClCompile Include="Flying.cpp">
+      <Filter>Factory\Birds\BirdState</Filter>
+    </ClCompile>
+    <ClCompile Include="Dead.cpp">
+      <Filter>Factory\Birds\BirdState</Filter>
+    </ClCompile>
+    <ClCompile Include="BirdAbility.cpp">
+      <Filter>Bird_Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Bird_Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherEmitter.cpp">
+      <Filter>Particles\Feather</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatherParticle.cpp">
+      <Filter>Particles\Feather</Filter>
+    </ClCompile>
+    <ClCompile Include="BombParticle.cpp">
+      <Filter>Particles\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Particles\Particle_Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEmitter.cpp">
+      <Filter>Particles\Particle_Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleFactory.cpp">
+      <Filter>Particles\Particle_Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="BombEmitter.cpp">
+      <Filter>Particles\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeTrail.cpp">
+      <Filter>Particles\SmokeTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeTrailFactory.cpp">
+      <Filter>Particles\SmokeTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeTrailMan.cpp">
+      <Filter>Particles\SmokeTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkParticle.cpp">
+      <Filter>Particles\Chunks</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkEmitter.cpp">
+      <Filter>Particles\Chunks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBird.cpp">
+      <Filter>Factory\Birds\BlackBird</Filter>
+    </ClCompile>
+    <ClCompile Include="YellowBird.cpp">
+      <Filter>Factory\Birds\YellowBird</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedUp.cpp">
+      <Filter>Bird_Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBird.cpp">
+      <Filter>Factory\Birds\BlueBird</Filter>
+    </ClCompile>
+    <ClCompile Include="Split.cpp">
+      <Filter>Bird_Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteBird.cpp">
+      <Filter>Factory\Birds\WhiteBird</Filter>
+    </ClCompile>
+    <ClCompile Include="DropEgg.cpp">
+      <Filter>Bird_Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Egg.cpp">
+      <Filter>Particles\Egg</Filter>
+    </ClCompile>
+    <ClCompile Include="EggEmitter.cpp">
+      <Filter>Particles\Egg</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenBird.cpp">
+      <Filter>Factory\Birds\GreenBird</Filter>
+    </ClCompile>
+    <ClCompile Include="Boomerang.cpp">
+      <Filter>Bird_Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerMan.cpp">
+      <Filter>TimerEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBird.cpp">
+      <Filter>Factory\Birds\RedBird</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeExplosion.cpp">
+      <Filter>Particles\ExplosionSmoke</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMan.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDirector.cpp">
+      <Filter>CameraDirector</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundObject.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBirdSound.cpp">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBirdSound.cpp">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="YellowBirdSound.cpp">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBirdSound.cpp">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenBirdSound.cpp">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodBlockSound.cpp">
+      <Filter>Sound\BlockSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="PigSounds.cpp">
+      <Filter>Sound\PigSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="Default.cpp">
+      <Filter>TimerEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Warcry.cpp">
+      <Filter>TimerEvents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Healty.cpp">
+      <Filter>Factory\Piggys\PiggyState</Filter>
+    </ClCompile>
+    <ClCompile Include="Damaged.cpp">
+      <Filter>Factory\Piggys\PiggyState</Filter>
+    </ClCompile>
+    <ClCompile Include="HeavyDamaged.cpp">
+      <Filter>Factory\Piggys\PiggyState</Filter>
+    </ClCompile>
+    <ClCompile Include="PiggyDead.cpp">
+      <Filter>Factory\Piggys\PiggyState</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonBirdSounds.cpp">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteBirdSounds.cpp">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeEmitter.cpp">
+      <Filter>Particles\Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeParticle.cpp">
+      <Filter>Particles\Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="TrailEmitter.cpp">
+      <Filter>Particles\SmokeTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="TrailParticle.cpp">
+      <Filter>Particles\SmokeTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Factory\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultState.cpp">
+      <Filter>Factory\Birds\BirdState</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMill.cpp">
+      <Filter>Factory\Gears</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneBall.cpp">
+      <Filter>Factory\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockDamaged.cpp">
+      <Filter>Factory\Blocks\BlockObjects\BlockState</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockHealty.cpp">
+      <Filter>Factory\Blocks\BlockObjects\BlockState</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockHeavyDamaged.cpp">
+      <Filter>Factory\Blocks\BlockObjects\BlockState</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockDead.cpp">
+      <Filter>Factory\Blocks\BlockObjects\BlockState</Filter>
+    </ClCompile>
+    <ClCompile Include="Helmet.cpp">
+      <Filter>Factory\Piggys</Filter>
+    </ClCompile>
+    <ClCompile Include="HelmetPiggy.cpp">
+      <Filter>Factory\Piggys</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassBlockSound.cpp">
+      <Filter>Sound\BlockSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneBlockSound.cpp">
+      <Filter>Sound\BlockSounds</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Keyboard">
+      <UniqueIdentifier>{11a82bb0-489a-419a-b545-6b83a9433e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{15363e7a-295c-4bb1-920a-3bdaf0aa931b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{1392bc0c-ded2-42a7-9ec1-333be4dadedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8fce8581-cbf4-4032-aae7-6d5fb5877a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\names">
+      <UniqueIdentifier>{e0c5ab54-67c2-4761-bd53-a7e20876c7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\primitives">
+      <UniqueIdentifier>{36c185b1-9faf-457d-b47f-6796dda1ac11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\utilities">
+      <UniqueIdentifier>{a8279369-d86f-43cd-bb63-00fc5ab402f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{3159976d-7987-4883-a95f-6508fc51ad26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{61468f83-cf9c-4fa5-a77e-2fade16df2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{7d69479d-535d-403b-b9fb-bd29a9370455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Collision">
+      <UniqueIdentifier>{95a1a970-31f5-436b-b4f8-01b1fbe19803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{3cb6428f-17d4-41e1-b5b3-9e8d7edd8764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\MyAddition">
+      <UniqueIdentifier>{8e938680-5e8b-4ce9-ab66-c06715673b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Blocks">
+      <UniqueIdentifier>{4eab3bff-5ab8-4eca-934e-04b2c0ab2d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Birds">
+      <UniqueIdentifier>{c53042dc-059e-4a7e-9228-4db06c166a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\SlingShot">
+      <UniqueIdentifier>{1f2f34e7-5f1b-4ed9-a7ca-6a9f9def067f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Blocks\BlockObjects">
+      <UniqueIdentifier>{7e1bd4b5-7b64-4319-806d-1c1b1c5af661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\BackGround">
+      <UniqueIdentifier>{c768c477-b117-4067-97a2-5a095222fc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\BackGround\Factory Class">
+      <UniqueIdentifier>{56ed1f05-d56d-42bf-8cf9-1a5371513c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Piggys">
+      <UniqueIdentifier>{3c680494-675e-4638-9ca5-76b5a1969b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Audio">
+      <UniqueIdentifier>{32884919-51c6-4f67-bc42-f53563d40193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Birds\BirdState">
+      <UniqueIdentifier>{7f7055e3-eb58-4de3-a4ef-37aeb19993a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{509b5a1a-63ec-45ee-8bea-9bdffe856839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bird_Abilities">
+      <UniqueIdentifier>{278d88a8-1e1b-4a15-99ad-d7d72d950e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Bomb">
+      <UniqueIdentifier>{083dd89b-634e-4b3a-9f7e-d4a2d4e4d579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Particle_Interface">
+      <UniqueIdentifier>{341a7302-41a4-4a72-a3c6-9f4d1de38e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Chunks">
+      <UniqueIdentifier>{3733e2a4-bbe2-4363-b7ab-7462a2f67da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Birds\RedBird">
+      <UniqueIdentifier>{3837a3fc-fdfc-49be-8a1b-b0d38917b348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Birds\BlackBird">
+      <UniqueIdentifier>{32a59bb6-33ed-428f-a847-76a5c0ded353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Birds\YellowBird">
+      <UniqueIdentifier>{c15c2b65-390b-4584-8771-f7faeb179733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Birds\BlueBird">
+      <UniqueIdentifier>{4a9fd430-c3a2-439e-9625-d652627d64df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Birds\WhiteBird">
+      <UniqueIdentifier>{387c83bd-e2ab-47db-b57c-191b8c5b859c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Egg">
+      <UniqueIdentifier>{68d64322-98cb-4083-93d5-4f934271027f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Feather">
+      <UniqueIdentifier>{74dd01ca-72e6-4dc2-8c84-ee43a9401877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\SmokeTrail">
+      <UniqueIdentifier>{82294a74-26ae-4486-8ec5-6fb977aacad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Birds\GreenBird">
+      <UniqueIdentifier>{df815b50-c347-40fc-95ae-04ae4f50cf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TimerEvents">
+      <UniqueIdentifier>{b2c69f08-4f1b-4ca8-8957-8a85f92d749e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\ExplosionSmoke">
+      <UniqueIdentifier>{e14c3f1e-53fd-4c88-8ba0-d8339288bcae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{686e822c-beed-4d17-a684-c4d5d446301b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraDirector">
+      <UniqueIdentifier>{4cd1b51e-cc30-497b-bf1e-aa95237ef8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\BirdSounds">
+      <UniqueIdentifier>{5616e311-e1bf-4c42-b59a-147dc093e4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\BlockSounds">
+      <UniqueIdentifier>{75bea630-8d5b-4e83-9dde-4652be5969b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\PigSounds">
+      <UniqueIdentifier>{8c77f11c-b0c1-4b4d-ad2d-3e16773ed7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TimerEvents\Events">
+      <UniqueIdentifier>{da2228d2-afae-4c28-9d59-3eeadc5f264d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Piggys\PiggyState">
+      <UniqueIdentifier>{5f21aedf-5878-4664-b3fa-fa3fa94178c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Smoke">
+      <UniqueIdentifier>{ef87ee75-4444-4516-907c-7b77c06d6c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Gears">
+      <UniqueIdentifier>{cfb4518a-6ac1-4f67-a361-a77cf9f836ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\Blocks\BlockObjects\BlockState">
+      <UniqueIdentifier>{4cb9ce08-4f75-4aee-8da4-c2c51c0b1baa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMan.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectMan.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMan.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject2D.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelToMeter.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSortBucket.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectName.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageName.h">
+      <Filter>Game\names</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureName.h">
+      <Filter>Game\names</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect2D.h">
+      <Filter>Game\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Game\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Game\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumBase.h">
+      <Filter>Game\names</Filter>
+    </ClInclude>
+    <ClInclude Include="AzulHelper.h">
+      <Filter>Game\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugOut.h">
+      <Filter>Game\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderName.h">
+      <Filter>Game\names</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="AngryContactListener.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTest.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundFactory.h">
+      <Filter>Factory\BackGround\Factory Class</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodPlatfomFactory.h">
+      <Filter>Factory\BackGround\Factory Class</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageState.h">
+      <Filter>Factory\MyAddition</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdFactory.h">
+      <Filter>Factory\Birds</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>Factory\Birds</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockFactory.h">
+      <Filter>Factory\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Factory\Blocks\BlockObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassBlock.h">
+      <Filter>Factory\Blocks\BlockObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodBlock.h">
+      <Filter>Factory\Blocks\BlockObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneBlock.h">
+      <Filter>Factory\Blocks\BlockObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="RubberBand.h">
+      <Filter>Factory\SlingShot</Filter>
+    </ClInclude>
+    <ClInclude Include="SlingShotFactory.h">
+      <Filter>Factory\SlingShot</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Factory\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Factory\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodPlatform.h">
+      <Filter>Factory\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="SlingShot.h">
+      <Filter>Factory\SlingShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Piggy.h">
+      <Filter>Factory\Piggys</Filter>
+    </ClInclude>
+    <ClInclude Include="PiggyFactory.h">
+      <Filter>Factory\Piggys</Filter>
+    </ClInclude>
+    <ClInclude Include="Seat.h">
+      <Filter>Factory\SlingShot</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdState.h">
+      <Filter>Factory\Birds\BirdState</Filter>
+    </ClInclude>
+    <ClInclude Include="Wait.h">
+      <Filter>Factory\Birds\BirdState</Filter>
+    </ClInclude>
+    <ClInclude Include="Ready.h">
+      <Filter>Factory\Birds\BirdState</Filter>
+    </ClInclude>
+    <ClInclude Include="Flying.h">
+      <Filter>Factory\Birds\BirdState</Filter>
+    </ClInclude>
+    <ClInclude Include="Dead.h">
+      <Filter>Factory\Birds\BirdState</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdAbility.h">
+      <Filter>Bird_Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Bird_Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherParticle.h">
+      <Filter>Particles\Feather</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatherEmitter.h">
+      <Filter>Particles\Feather</Filter>
+    </ClInclude>
+    <ClInclude Include="BombParticle.h">
+      <Filter>Particles\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Particles\Particle_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitter.h">
+      <Filter>Particles\Particle_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleFactory.h">
+      <Filter>Particles\Particle_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="BombEmitter.h">
+      <Filter>Particles\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeTrail.h">
+      <Filter>Particles\SmokeTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeTrailFactory.h">
+      <Filter>Particles\SmokeTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeTrailMan.h">
+      <Filter>Particles\SmokeTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkParticle.h">
+      <Filter>Particles\Chunks</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkEmitter.h">
+      <Filter>Particles\Chunks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBird.h">
+      <Filter>Factory\Birds\BlackBird</Filter>
+    </ClInclude>
+    <ClInclude Include="YellowBird.h">
+      <Filter>Factory\Birds\YellowBird</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedUp.h">
+      <Filter>Bird_Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBird.h">
+      <Filter>Factory\Birds\BlueBird</Filter>
+    </ClInclude>
+    <ClInclude Include="Split.h">
+      <Filter>Bird_Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteBird.h">
+      <Filter>Factory\Birds\WhiteBird</Filter>
+    </ClInclude>
+    <ClInclude Include="DropEgg.h">
+      <Filter>Bird_Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Egg.h">
+      <Filter>Particles\Egg</Filter>
+    </ClInclude>
+    <ClInclude Include="EggEmitter.h">
+      <Filter>Particles\Egg</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenBird.h">
+      <Filter>Factory\Birds\GreenBird</Filter>
+    </ClInclude>
+    <ClInclude Include="Boomerang.h">
+      <Filter>Bird_Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerEvent.h">
+      <Filter>TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerMan.h">
+      <Filter>TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBird.h">
+      <Filter>Factory\Birds\RedBird</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeExplosion.h">
+      <Filter>Particles\ExplosionSmoke</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMan.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDirector.h">
+      <Filter>CameraDirector</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundObject.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBirdSound.h">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBirdSound.h">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="YellowBirdSound.h">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBirdSound.h">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenBirdSound.h">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodBlockSound.h">
+      <Filter>Sound\BlockSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="PigSounds.h">
+      <Filter>Sound\PigSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="Blink.h">
+      <Filter>TimerEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Default.h">
+      <Filter>TimerEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Jump.h">
+      <Filter>TimerEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpRotate.h">
+      <Filter>TimerEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="JumToSling.h">
+      <Filter>TimerEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Warcry.h">
+      <Filter>TimerEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="OinkEvent.h">
+      <Filter>TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="EventName.h">
+      <Filter>TimerEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="PiggyState.h">
+      <Filter>Factory\Piggys\PiggyState</Filter>
+    </ClInclude>
+    <ClInclude Include="Healty.h">
+      <Filter>Factory\Piggys\PiggyState</Filter>
+    </ClInclude>
+    <ClInclude Include="Damaged.h">
+      <Filter>Factory\Piggys\PiggyState</Filter>
+    </ClInclude>
+    <ClInclude Include="HeavyDamaged.h">
+      <Filter>Factory\Piggys\PiggyState</Filter>
+    </ClInclude>
+    <ClInclude Include="PiggyDead.h">
+      <Filter>Factory\Piggys\PiggyState</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonBirdSounds.h">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteBirdSounds.h">
+      <Filter>Sound\BirdSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeBombEvent.h">
+      <Filter>TimerEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeEmitter.h">
+      <Filter>Particles\Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeParticle.h">
+      <Filter>Particles\Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="TrailEmitter.h">
+      <Filter>Particles\SmokeTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="TrailParticle.h">
+      <Filter>Particles\SmokeTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Factory\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultState.h">
+      <Filter>Factory\Birds\BirdState</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMill.h">
+      <Filter>Factory\Gears</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneBall.h">
+      <Filter>Factory\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockState.h">
+      <Filter>Factory\Blocks\BlockObjects\BlockState</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockDamaged.h">
+      <Filter>Factory\Blocks\BlockObjects\BlockState</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockHeavyDamaged.h">
+      <Filter>Factory\Blocks\BlockObjects\BlockState</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockDead.h">
+      <Filter>Factory\Blocks\BlockObjects\BlockState</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockHealty.h">
+      <Filter>Factory\Blocks\BlockObjects\BlockState</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomerangEvent.h">
+      <Filter>TimerEvents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Helmet.h">
+      <Filter>Factory\Piggys</Filter>
+    </ClInclude>
+    <ClInclude Include="HelmetPiggy.h">
+      <Filter>Factory\Piggys</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassBlockSound.h">
+      <Filter>Sound\BlockSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneBlockSound.h">
+      <Filter>Sound\BlockSounds</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\Box2D\lib\Box2DDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\Engine\lib\EngineDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\FileDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\GLFW\lib\GLFWDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\GraphicsObject\lib\GraphicsObjectDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\Image\lib\ImageDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\Model\lib\ModelDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\PCSTree\lib\PCSTreeDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6Debug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\Shader\lib\ShaderDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\Texture\lib\TextureDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\Time\lib\TimeDebug.lib">
+      <Filter>_Libs</Filter>
+    </Library>
+    <Library Include="..\dist\Audio\lib\irrKlang.lib">
+      <Filter>_Libs\Audio</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\dist\Audio\lib\ikpMP3.dll">
+      <Filter>_Libs\Audio</Filter>
+    </None>
+    <None Include="..\dist\Audio\lib\irrKlang.dll">
+      <Filter>_Libs\Audio</Filter>
+    </None>
+  </ItemGroup>
+</Project>
